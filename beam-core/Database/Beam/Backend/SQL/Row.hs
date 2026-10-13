@@ -24,6 +24,7 @@ import           Database.Beam.Backend.Types
 import           Control.Applicative
 import           Control.Exception (Exception)
 import           Control.Monad.Free.Church
+import           Control.Monad (replicateM_)
 import           Control.Monad.Identity
 import           Data.Tagged
 import           Data.Typeable
