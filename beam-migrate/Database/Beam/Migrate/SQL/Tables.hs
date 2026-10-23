@@ -43,6 +43,7 @@ import Database.Beam.Migrate.SQL.Types
 import Database.Beam.Migrate.SQL.SQL92
 
 import Control.Applicative
+import Control.Monad (forM_)
 import Control.Monad.Identity
 import Control.Monad.Writer.Strict
 import Control.Monad.State

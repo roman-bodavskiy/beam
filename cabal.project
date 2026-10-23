@@ -4,3 +4,5 @@ packages:
   beam-migrate-cli
   beam-postgres
   beam-sqlite
+
+allow-newer: beam-sqlite:unix
