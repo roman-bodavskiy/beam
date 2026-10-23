@@ -27,6 +27,7 @@ module Database.Beam.Postgres.Connection
   , postgresUriSyntax ) where
 
 import           Control.Exception (SomeException(..), throwIO)
+import           Control.Monad (foldM)
 import           Control.Monad.Free.Church
 import           Control.Monad.IO.Class
 

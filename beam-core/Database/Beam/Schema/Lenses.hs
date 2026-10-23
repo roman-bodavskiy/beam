@@ -13,6 +13,8 @@ module Database.Beam.Schema.Lenses
 
 import Database.Beam.Schema.Tables
 
+import Data.Function (fix)
+
 import Control.Monad.Identity
 
 import Data.Proxy

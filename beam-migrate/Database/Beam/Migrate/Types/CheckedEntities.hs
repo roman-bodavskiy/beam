@@ -15,6 +15,7 @@ import Control.Applicative
 import Control.Monad.Writer
 import Control.Monad.Identity
 
+import Data.Monoid (Endo (Endo))
 import Data.Proxy
 import Data.Text (Text)
 import Data.String
